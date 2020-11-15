@@ -1,0 +1,30 @@
+table {
+  border-spacing: 0px;
+  font-family: serif;
+  width: 30%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: rgb(220, 220, 220);
+  text-align: center;
+  background: linear-gradient(94deg, #b3b5d1 32%, #ffffff 64%, #adadad 78%);
+  transition: 0.3s;
+}
+thead {
+  background: linear-gradient(94deg, #b3b5d1 32%, #ffffff 64%, #adadad 78%);
+}
+caption {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 40px;
+  background: #14254c;
+  color: #ffffff;
+}
+th,
+td {
+  padding: 20px 40px;
+  border: 1px solid #aaa89c;
+}
+th,
+td:hover {
+  background: linear-gradient(86deg, #6d73c7 32%, #00a6ff 64%, #1ab539 78%);
+}
